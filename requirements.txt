@@ -1,0 +1,8 @@
+flask>=3.0
+numpy
+scipy
+pandas
+matplotlib
+jax        # optional but recommended: autodiff + jit; falls back to NumPy without it
+pymoo      # optional: NSGA-II Pareto search (falls back to random search)
+pytest
